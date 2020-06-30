@@ -74,7 +74,7 @@ def greenYellowSelPubColumns(df: DataFrame) = {
 }
 //******************************Raw Data***************************
 
-val taxi_zone_geom = readSampleData("taxi_zone_geom")
+val taxi_zone_geom = readSampleData("taxi_zone_geom.csv")
 
 val fhv = fhvSelectPublicColumns(readSampleData("tlc_fhv_trips_2015_sample_full"))
   .union(fhvSelectPublicColumns(readSampleData("tlc_fhv_trips_2016_sample_full")))

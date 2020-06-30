@@ -1,0 +1,455 @@
+Here list the schema information for all dataframe. can easily check these from here!!!
+
+fhv2015
+root
+ |-- Dispatching_base_num: string (nullable = true)
+ |-- Pickup_date: string (nullable = true)
+ |-- locationID: string (nullable = true)
+
+--------------------------------------------------
+ fhv2016
+ root
+  |-- Dispatching_base_num: string (nullable = true)
+  |-- Pickup_date: string (nullable = true)
+  |-- locationID: string (nullable = true)
+
+--------------------------------------------------
+
+  fhv2017
+root
+ |-- Dispatching_base_num: string (nullable = true)
+ |-- Pickup_DateTime: string (nullable = true)
+ |-- DropOff_datetime: string (nullable = true)
+ |-- PUlocationID: string (nullable = true)
+ |-- DOlocationID: string (nullable = true)
+---------------------------------------------------
+result :
+Needed columns :
+Pickup_date  locationID
+
+fhvhv
+root
+ |-- hvfhs_license_num: string (nullable = true)
+ |-- dispatching_base_num: string (nullable = true)
+ |-- pickup_datetime: string (nullable = true)
+ |-- dropoff_datetime: string (nullable = true)
+ |-- PULocationID: string (nullable = true)
+ |-- DOLocationID: string (nullable = true)
+ |-- SR_Flag: string (nullable = true)
+ |-- City: string (nullable = false)
+ |-- taxi_type: string (nullable = false)
+
+-----------------------------------------------------
+
+green2013
+root
+ |-- VendorID: string (nullable = true)
+ |-- lpep_pickup_datetime: string (nullable = true)
+ |-- Lpep_dropoff_datetime: string (nullable = true)
+ |-- Store_and_fwd_flag: string (nullable = true)
+ |-- RateCodeID: string (nullable = true)
+ |-- Pickup_longitude: string (nullable = true)
+ |-- Pickup_latitude: string (nullable = true)
+ |-- Dropoff_longitude: string (nullable = true)
+ |-- Dropoff_latitude: string (nullable = true)
+ |-- Passenger_count: string (nullable = true)
+ |-- Trip_distance: string (nullable = true)
+ |-- Fare_amount: string (nullable = true)
+ |-- Extra: string (nullable = true)
+ |-- MTA_tax: string (nullable = true)
+ |-- Tip_amount: string (nullable = true)
+ |-- Tolls_amount: string (nullable = true)
+ |-- Ehail_fee: string (nullable = true)
+ |-- Total_amount: string (nullable = true)
+ |-- Payment_type: string (nullable = true)
+ |-- Trip_type : string (nullable = true)
+
+----------------------------------------------------------------
+
+green2014
+root
+ |-- VendorID: string (nullable = true)
+ |-- lpep_pickup_datetime: string (nullable = true)
+ |-- Lpep_dropoff_datetime: string (nullable = true)
+ |-- Store_and_fwd_flag: string (nullable = true)
+ |-- RateCodeID: string (nullable = true)
+ |-- Pickup_longitude: string (nullable = true)
+ |-- Pickup_latitude: string (nullable = true)
+ |-- Dropoff_longitude: string (nullable = true)
+ |-- Dropoff_latitude: string (nullable = true)
+ |-- Passenger_count: string (nullable = true)
+ |-- Trip_distance: string (nullable = true)
+ |-- Fare_amount: string (nullable = true)
+ |-- Extra: string (nullable = true)
+ |-- MTA_tax: string (nullable = true)
+ |-- Tip_amount: string (nullable = true)
+ |-- Tolls_amount: string (nullable = true)
+ |-- Ehail_fee: string (nullable = true)
+ |-- Total_amount: string (nullable = true)
+ |-- Payment_type: string (nullable = true)
+ |-- Trip_type : string (nullable = true)
+
+---------------------------------------------------------------
+
+green2015
+
+root
+ |-- VendorID: string (nullable = true)
+ |-- lpep_pickup_datetime: string (nullable = true)
+ |-- Lpep_dropoff_datetime: string (nullable = true)
+ |-- Store_and_fwd_flag: string (nullable = true)
+ |-- RateCodeID: string (nullable = true)
+ |-- Pickup_longitude: string (nullable = true)
+ |-- Pickup_latitude: string (nullable = true)
+ |-- Dropoff_longitude: string (nullable = true)
+ |-- Dropoff_latitude: string (nullable = true)
+ |-- Passenger_count: string (nullable = true)
+ |-- Trip_distance: string (nullable = true)
+ |-- Fare_amount: string (nullable = true)
+ |-- Extra: string (nullable = true)
+ |-- MTA_tax: string (nullable = true)
+ |-- Tip_amount: string (nullable = true)
+ |-- Tolls_amount: string (nullable = true)
+ |-- Ehail_fee: string (nullable = true)
+ |-- improvement_surcharge: string (nullable = true)
+ |-- Total_amount: string (nullable = true)
+ |-- Payment_type: string (nullable = true)
+ |-- Trip_type : string (nullable = true)
+
+ ---------------------------------------------------------------
+
+ green2016
+root
+ |-- VendorID: string (nullable = true)
+ |-- lpep_pickup_datetime: string (nullable = true)
+ |-- Lpep_dropoff_datetime: string (nullable = true)
+ |-- Store_and_fwd_flag: string (nullable = true)
+ |-- RateCodeID: string (nullable = true)
+ |-- Pickup_longitude: string (nullable = true)
+ |-- Pickup_latitude: string (nullable = true)
+ |-- Dropoff_longitude: string (nullable = true)
+ |-- Dropoff_latitude: string (nullable = true)
+ |-- Passenger_count: string (nullable = true)
+ |-- Trip_distance: string (nullable = true)
+ |-- Fare_amount: string (nullable = true)
+ |-- Extra: string (nullable = true)
+ |-- MTA_tax: string (nullable = true)
+ |-- Tip_amount: string (nullable = true)
+ |-- Tolls_amount: string (nullable = true)
+ |-- Ehail_fee: string (nullable = true)
+ |-- improvement_surcharge: string (nullable = true)
+ |-- Total_amount: string (nullable = true)
+ |-- Payment_type: string (nullable = true)
+ |-- Trip_type : string (nullable = true)
+
+
+-------------------------------------------------------------------
+green2017
+
+root
+ |-- VendorID: string (nullable = true)
+ |-- lpep_pickup_datetime: string (nullable = true)
+ |-- lpep_dropoff_datetime: string (nullable = true)
+ |-- store_and_fwd_flag: string (nullable = true)
+ |-- RatecodeID: string (nullable = true)
+ |-- PULocationID: string (nullable = true)
+ |-- DOLocationID: string (nullable = true)
+ |-- passenger_count: string (nullable = true)
+ |-- trip_distance: string (nullable = true)
+ |-- fare_amount: string (nullable = true)
+ |-- extra: string (nullable = true)
+ |-- mta_tax: string (nullable = true)
+ |-- tip_amount: string (nullable = true)
+ |-- tolls_amount: string (nullable = true)
+ |-- ehail_fee: string (nullable = true)
+ |-- improvement_surcharge: string (nullable = true)
+ |-- total_amount: string (nullable = true)
+ |-- payment_type: string (nullable = true)
+ |-- trip_type: string (nullable = true)
+
+-------------------------------------------------------------------
+green2018
+root
+ |-- VendorID: string (nullable = true)
+ |-- lpep_pickup_datetime: string (nullable = true)
+ |-- lpep_dropoff_datetime: string (nullable = true)
+ |-- store_and_fwd_flag: string (nullable = true)
+ |-- RatecodeID: string (nullable = true)
+ |-- PULocationID: string (nullable = true)
+ |-- DOLocationID: string (nullable = true)
+ |-- passenger_count: string (nullable = true)
+ |-- trip_distance: string (nullable = true)
+ |-- fare_amount: string (nullable = true)
+ |-- extra: string (nullable = true)
+ |-- mta_tax: string (nullable = true)
+ |-- tip_amount: string (nullable = true)
+ |-- tolls_amount: string (nullable = true)
+ |-- ehail_fee: string (nullable = true)
+ |-- improvement_surcharge: string (nullable = true)
+ |-- total_amount: string (nullable = true)
+ |-- payment_type: string (nullable = true)
+ |-- trip_type: string (nullable = true)
+
+-----------------------------------------------------------------------
+green2019
+root
+ |-- VendorID: string (nullable = true)
+ |-- lpep_pickup_datetime: string (nullable = true)
+ |-- lpep_dropoff_datetime: string (nullable = true)
+ |-- store_and_fwd_flag: string (nullable = true)
+ |-- RatecodeID: string (nullable = true)
+ |-- PULocationID: string (nullable = true)
+ |-- DOLocationID: string (nullable = true)
+ |-- passenger_count: string (nullable = true)
+ |-- trip_distance: string (nullable = true)
+ |-- fare_amount: string (nullable = true)
+ |-- extra: string (nullable = true)
+ |-- mta_tax: string (nullable = true)
+ |-- tip_amount: string (nullable = true)
+ |-- tolls_amount: string (nullable = true)
+ |-- ehail_fee: string (nullable = true)
+ |-- improvement_surcharge: string (nullable = true)
+ |-- total_amount: string (nullable = true)
+ |-- payment_type: string (nullable = true)
+ |-- trip_type: string (nullable = true)
+ |-- congestion_surcharge: string (nullable = true)
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+yellow2009
+root
+ |-- vendor_name: string (nullable = true)
+ |-- Trip_Pickup_DateTime: string (nullable = true)
+ |-- Trip_Dropoff_DateTime: string (nullable = true)
+ |-- Passenger_Count: string (nullable = true)
+ |-- Trip_Distance: string (nullable = true)
+ |-- Start_Lon: string (nullable = true)
+ |-- Start_Lat: string (nullable = true)
+ |-- Rate_Code: string (nullable = true)
+ |-- store_and_forward: string (nullable = true)
+ |-- End_Lon: string (nullable = true)
+ |-- End_Lat: string (nullable = true)
+ |-- Payment_Type: string (nullable = true)
+ |-- Fare_Amt: string (nullable = true)
+ |-- surcharge: string (nullable = true)
+ |-- mta_tax: string (nullable = true)
+ |-- Tip_Amt: string (nullable = true)
+ |-- Tolls_Amt: string (nullable = true)
+ |-- Total_Amt: string (nullable = true)
+
+-----------------------------------------------------------------------
+
+yellow2010
+root
+ |-- vendor_id: string (nullable = true)
+ |-- pickup_datetime: string (nullable = true)
+ |-- dropoff_datetime: string (nullable = true)
+ |-- passenger_count: string (nullable = true)
+ |-- trip_distance: string (nullable = true)
+ |-- pickup_longitude: string (nullable = true)
+ |-- pickup_latitude: string (nullable = true)
+ |-- rate_code: string (nullable = true)
+ |-- store_and_fwd_flag: string (nullable = true)
+ |-- dropoff_longitude: string (nullable = true)
+ |-- dropoff_latitude: string (nullable = true)
+ |-- payment_type: string (nullable = true)
+ |-- fare_amount: string (nullable = true)
+ |-- surcharge: string (nullable = true)
+ |-- mta_tax: string (nullable = true)
+ |-- tip_amount: string (nullable = true)
+ |-- tolls_amount: string (nullable = true)
+ |-- total_amount: string (nullable = true)
+-------------------------------------------------------------------------
+
+yellow2011
+root
+ |-- vendor_id: string (nullable = true)
+ |-- pickup_datetime: string (nullable = true)
+ |-- dropoff_datetime: string (nullable = true)
+ |-- passenger_count: string (nullable = true)
+ |-- trip_distance: string (nullable = true)
+ |-- pickup_longitude: string (nullable = true)
+ |-- pickup_latitude: string (nullable = true)
+ |-- rate_code: string (nullable = true)
+ |-- store_and_fwd_flag: string (nullable = true)
+ |-- dropoff_longitude: string (nullable = true)
+ |-- dropoff_latitude: string (nullable = true)
+ |-- payment_type: string (nullable = true)
+ |-- fare_amount: string (nullable = true)
+ |-- surcharge: string (nullable = true)
+ |-- mta_tax: string (nullable = true)
+ |-- tip_amount: string (nullable = true)
+ |-- tolls_amount: string (nullable = true)
+ |-- total_amount: string (nullable = true)
+---------------------------------------------------------------------------
+
+yellow2012
+root
+ |-- vendor_id: string (nullable = true)
+ |-- pickup_datetime: string (nullable = true)
+ |-- dropoff_datetime: string (nullable = true)
+ |-- passenger_count: string (nullable = true)
+ |-- trip_distance: string (nullable = true)
+ |-- pickup_longitude: string (nullable = true)
+ |-- pickup_latitude: string (nullable = true)
+ |-- rate_code: string (nullable = true)
+ |-- store_and_fwd_flag: string (nullable = true)
+ |-- dropoff_longitude: string (nullable = true)
+ |-- dropoff_latitude: string (nullable = true)
+ |-- payment_type: string (nullable = true)
+ |-- fare_amount: string (nullable = true)
+ |-- surcharge: string (nullable = true)
+ |-- mta_tax: string (nullable = true)
+ |-- tip_amount: string (nullable = true)
+ |-- tolls_amount: string (nullable = true)
+ |-- total_amount: string (nullable = true)
+-----------------------------------------------------------------------------
+
+yellow2013
+root
+ |-- vendor_id: string (nullable = true)
+ |-- pickup_datetime: string (nullable = true)
+ |-- dropoff_datetime: string (nullable = true)
+ |-- passenger_count: string (nullable = true)
+ |-- trip_distance: string (nullable = true)
+ |-- pickup_longitude: string (nullable = true)
+ |-- pickup_latitude: string (nullable = true)
+ |-- rate_code: string (nullable = true)
+ |-- store_and_fwd_flag: string (nullable = true)
+ |-- dropoff_longitude: string (nullable = true)
+ |-- dropoff_latitude: string (nullable = true)
+ |-- payment_type: string (nullable = true)
+ |-- fare_amount: string (nullable = true)
+ |-- surcharge: string (nullable = true)
+ |-- mta_tax: string (nullable = true)
+ |-- tip_amount: string (nullable = true)
+ |-- tolls_amount: string (nullable = true)
+ |-- total_amount: string (nullable = true)
+------------------------------------------------------------------------
+yellow2014
+root
+ |-- vendor_id: string (nullable = true)
+ |--  pickup_datetime: string (nullable = true)
+ |--  dropoff_datetime: string (nullable = true)
+ |--  passenger_count: string (nullable = true)
+ |--  trip_distance: string (nullable = true)
+ |--  pickup_longitude: string (nullable = true)
+ |--  pickup_latitude: string (nullable = true)
+ |--  rate_code: string (nullable = true)
+ |--  store_and_fwd_flag: string (nullable = true)
+ |--  dropoff_longitude: string (nullable = true)
+ |--  dropoff_latitude: string (nullable = true)
+ |--  payment_type: string (nullable = true)
+ |--  fare_amount: string (nullable = true)
+ |--  surcharge: string (nullable = true)
+ |--  mta_tax: string (nullable = true)
+ |--  tip_amount: string (nullable = true)
+ |--  tolls_amount: string (nullable = true)
+ |--  total_amount: string (nullable = true)
+-------------------------------------------------------------------------
+yellow2015
+root
+ |-- VendorID: string (nullable = true)
+ |-- tpep_pickup_datetime: string (nullable = true)
+ |-- tpep_dropoff_datetime: string (nullable = true)
+ |-- passenger_count: string (nullable = true)
+ |-- trip_distance: string (nullable = true)
+ |-- pickup_longitude: string (nullable = true)
+ |-- pickup_latitude: string (nullable = true)
+ |-- RateCodeID: string (nullable = true)
+ |-- store_and_fwd_flag: string (nullable = true)
+ |-- dropoff_longitude: string (nullable = true)
+ |-- dropoff_latitude: string (nullable = true)
+ |-- payment_type: string (nullable = true)
+ |-- fare_amount: string (nullable = true)
+ |-- extra: string (nullable = true)
+ |-- mta_tax: string (nullable = true)
+ |-- tip_amount: string (nullable = true)
+ |-- tolls_amount: string (nullable = true)
+ |-- improvement_surcharge: string (nullable = true)
+ |-- total_amount: string (nullable = true)
+-----------------------------------------------------------------------
+yellow2016
+root
+ |-- VendorID: string (nullable = true)
+ |-- tpep_pickup_datetime: string (nullable = true)
+ |-- tpep_dropoff_datetime: string (nullable = true)
+ |-- passenger_count: string (nullable = true)
+ |-- trip_distance: string (nullable = true)
+ |-- pickup_longitude: string (nullable = true)
+ |-- pickup_latitude: string (nullable = true)
+ |-- RatecodeID: string (nullable = true)
+ |-- store_and_fwd_flag: string (nullable = true)
+ |-- dropoff_longitude: string (nullable = true)
+ |-- dropoff_latitude: string (nullable = true)
+ |-- payment_type: string (nullable = true)
+ |-- fare_amount: string (nullable = true)
+ |-- extra: string (nullable = true)
+ |-- mta_tax: string (nullable = true)
+ |-- tip_amount: string (nullable = true)
+ |-- tolls_amount: string (nullable = true)
+ |-- improvement_surcharge: string (nullable = true)
+ |-- total_amount: string (nullable = true)
+-------------------------------------------------------------------------
+yellow2017
+root
+ |-- VendorID: string (nullable = true)
+ |-- tpep_pickup_datetime: string (nullable = true)
+ |-- tpep_dropoff_datetime: string (nullable = true)
+ |-- passenger_count: string (nullable = true)
+ |-- trip_distance: string (nullable = true)
+ |-- RatecodeID: string (nullable = true)
+ |-- store_and_fwd_flag: string (nullable = true)
+ |-- PULocationID: string (nullable = true)
+ |-- DOLocationID: string (nullable = true)
+ |-- payment_type: string (nullable = true)
+ |-- fare_amount: string (nullable = true)
+ |-- extra: string (nullable = true)
+ |-- mta_tax: string (nullable = true)
+ |-- tip_amount: string (nullable = true)
+ |-- tolls_amount: string (nullable = true)
+ |-- improvement_surcharge: string (nullable = true)
+ |-- total_amount: string (nullable = true)
+------------------------------------------------------------------------
+yellow2018
+root
+ |-- VendorID: string (nullable = true)
+ |-- tpep_pickup_datetime: string (nullable = true)
+ |-- tpep_dropoff_datetime: string (nullable = true)
+ |-- passenger_count: string (nullable = true)
+ |-- trip_distance: string (nullable = true)
+ |-- RatecodeID: string (nullable = true)
+ |-- store_and_fwd_flag: string (nullable = true)
+ |-- PULocationID: string (nullable = true)
+ |-- DOLocationID: string (nullable = true)
+ |-- payment_type: string (nullable = true)
+ |-- fare_amount: string (nullable = true)
+ |-- extra: string (nullable = true)
+ |-- mta_tax: string (nullable = true)
+ |-- tip_amount: string (nullable = true)
+ |-- tolls_amount: string (nullable = true)
+ |-- improvement_surcharge: string (nullable = true)
+ |-- total_amount: string (nullable = true)
+-------------------------------------------------------------------------
+yellow2019
+root
+ |-- VendorID: string (nullable = true)
+ |-- tpep_pickup_datetime: string (nullable = true)
+ |-- tpep_dropoff_datetime: string (nullable = true)
+ |-- passenger_count: string (nullable = true)
+ |-- trip_distance: string (nullable = true)
+ |-- RatecodeID: string (nullable = true)
+ |-- store_and_fwd_flag: string (nullable = true)
+ |-- PULocationID: string (nullable = true)
+ |-- DOLocationID: string (nullable = true)
+ |-- payment_type: string (nullable = true)
+ |-- fare_amount: string (nullable = true)
+ |-- extra: string (nullable = true)
+ |-- mta_tax: string (nullable = true)
+ |-- tip_amount: string (nullable = true)
+ |-- tolls_amount: string (nullable = true)
+ |-- improvement_surcharge: string (nullable = true)
+ |-- total_amount: string (nullable = true)
+ |-- congestion_surcharge: string (nullable = true)
+--------------------------------------------------------------------------
