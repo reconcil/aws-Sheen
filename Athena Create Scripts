@@ -1,0 +1,31 @@
+CREATE EXTERNAL TABLE IF NOT EXISTS default.taxibiztotal (
+  Pickup_DateDay  TIMESTAMP,
+  borough  STRING,
+  taxi_type  STRING,
+  Count  INT,
+  Month  INT,
+  Day  INT,
+  DOW  STRING
+)
+STORED AS PARQUET
+LOCATION 's3://taxidatasamplegeover/totalBiz'
+TBLPROPERTIES ('classification'='parquet')
+
+
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS default.taxiformap (
+  City STRING,
+  taxi_type  STRING,
+  Pickup_longitude  DOUBLE,
+  Pickup_latitude  DOUBLE,
+  Passenger_count  INT,
+  Trip_distance  DOUBLE,
+  Fare_amount  DOUBLE,
+  Count  INT,
+  Pickup_DataTimeTenMins  TIMESTAMP
+
+)
+STORED AS PARQUET
+LOCATION 's3://taxidatasamplegeover/oneMonthBiz'
+TBLPROPERTIES ('classification'='parquet')
