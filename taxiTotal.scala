@@ -69,7 +69,10 @@ object taxiTotal extends App {
    * add the taxi_zone_geom information
    */
 
-  val taxi_gemo = spark.read.format("com.databricks.spark.csv").option("header", "true").load("./taxi_zone_geom.csv")
+  //val taxi_gemo = spark.read.format("com.databricks.spark.csv").option("header", "true").load("./taxi_zone_geom.csv")
+
+  val taxi_gemo = spark.read.format("com.databricks.spark.csv").option("header", "true").load("s3://taxigemozone")
+
 
 
 
@@ -149,7 +152,7 @@ import spark.implicits._
 
 
 
-  taxi_total_geo.repartition(1).write.mode(SaveMode.Overwrite).format("parquet").save("s3://taxidatasamplegeover/Total/") //total
+  taxi_total_geo.write.mode(SaveMode.Overwrite).format("parquet").save("s3://taxidatasamplegeover/Total/") //total
 
   //using for all biz count
   import org.apache.spark.sql.functions._
