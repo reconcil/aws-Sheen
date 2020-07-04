@@ -6,6 +6,12 @@ taxiTotal -- ETL逻辑，用于AWS云计算平台，其中s3 path hard code，�
 priceRegression -- fare_amount与trip_distance的线性回归分析。\
 Trend -- ETL逻辑，用于google cloud platform
 
+   *Spearman 相关系数：\
+    fare_amount vs trip_distance :      0.9160795764969094\
+    fare_amount vs Pickup_latitude :   -0.1035135803686105\
+    fare_amount vs Pickup_longitude :   0.05064398224865199\
+    所以这里只选取 fare_amount vs trip_distance 做相关分析。
+    
 
    * Green 预测结果
    * 斜率：[2.5488253446537765]

@@ -26,9 +26,9 @@ object priceRegression extends App {
   }
 
 
-  relationShip(taxi_detail, "Fare_amount", "Trip_distance")   //0.0779954587735451   0.9160795764969094
-  relationShip(taxi_detail, "Fare_amount", "Pickup_latitude") // -0.0075461821579151595  -0.1035135803686105
-  relationShip(taxi_detail, "Fare_amount", "Pickup_longitude") // 0.006104604534192626 0.05064398224865199
+  relationShip(taxi_detail, "Fare_amount", "Trip_distance")   //   0.9160795764969094
+  relationShip(taxi_detail, "Fare_amount", "Pickup_latitude") //   -0.1035135803686105
+  relationShip(taxi_detail, "Fare_amount", "Pickup_longitude") //  0.05064398224865199
 
 
   case class fareVSvectors(label: Double, features: org.apache.spark.ml.linalg.Vector)
